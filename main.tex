@@ -1,0 +1,262 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% modern themes
+\moderncvstyle{banking}                            % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}                                % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.90]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+\usepackage{import}
+
+% personal data
+\name{Vishwam}{Pandya}
+\title{Curriculum Vitae}                               % optional, remove / comment the line if not wanted
+\address{Saidham Colony, Boisar, Maharashtra, India 401501}
+\phone[mobile]{+91 9923684498}                   % optional, remove / comment the line if not wanted
+
+\email{vishwamjp@gmail.com}                               % optional, remove / comment the line if not wanted
+                        % optional, remove / comment the line if not wanted
+%\extrainfo{additional information}                 % optional, remove / comment the line if not wanted
+%\photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+%\quote{Some quote}                                 % optional, remove / comment the line if not wanted
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+
+
+\section{Education}
+
+\begin{itemize}
+
+\item{\cventry{2013--2017}{Computer Science and Engineering }{Shri Guru Gobind Singhji Institute of Engineering and Technology}{Nanded, India}{\textit{7.49/10}}{}}
+
+
+
+\end{itemize}
+
+
+\section{Previous Employment}
+
+\vspace{5pt}
+
+\begin{itemize}
+
+\item{\cventry{September 2017 -- Ongoing}{Assistant System Engineer}{\textsc{Digitate, Tata Research Development and Design Centre}}{Pune, India}{}{Implemented sentence similarity using Siamese Neural Network with an accuracy of 93\%. \\Worked on predicting frequent fault occurrence in systems and devising proper solutions for those faults}}
+
+\vspace{5pt}
+
+\item{\cventry{June -- September 2017}{Assistant System Engineer - Trainee}{\textsc{ILP Innovations Lab}}{Trivandrum, India}{}{Developed herbal leaf classiﬁcation system using Transfer Learning with an accuracy of 85\%. \\Implemented Deep Convolution GANs for generating celebrity face images using Tensorﬂow.}}
+
+\vspace{5pt}
+
+\item{\cventry{May -- July 2016}{Machine Learning Developer}{\textsc{Aikon Labs}}{Pune, India}{}{Redesigned their product's recommendation system using Apache Spark and Neo4j, helping significantly increase the number of suggestions to users.}}
+
+\end{itemize}
+
+
+\vspace{2pt}
+
+\section{Research}
+
+\vspace{5pt}
+
+\begin{itemize}
+
+\item{\textbf{Cyclic Helper Generative Adversarial Networks(Working on Research Paper)} 
+
+\vspace{3pt}
+
+\small{To solve the issue of generating diverse images rather than the architecture converging to some specific image distributions.\\Link-https://freethinkerspeaks.wordpress.com/2017/10/03/cyclic-helper-generative- adversarial-networks}}
+\vspace{5pt}
+
+\item{\textbf{Combined Concept Model for Paragraph Summarization using Coverage Maximization(Working on Research Paper)} 
+
+\vspace{3pt}
+
+\small{Designed a method to combine various linguistics concepts and use them together to summarize a paragraph.}}
+
+\vspace{5pt}
+
+\item{\textbf{Comparing Handwritten Character Recognition by AdaBoostClassifier and KNeighborsClassifier}
+
+\vspace{3pt}
+
+\small{Published in CICN 2016 as the First author. Using Python and OpenCV, I recognized handwritten Gujarati language(local language in India) characters. I achieved an accuracy of 98.62\% with AdaBoost and 96.93\% with KNeighbors.  \\Link- http://ieeexplore.ieee.org/document/8082649/}}
+
+\end{itemize}
+
+\vspace{2pt}
+
+\section{Projects}
+
+\vspace{5pt}
+
+
+
+\begin{itemize}
+
+\item{\textbf{QA Bot}
+
+\vspace{3pt}
+
+\small{Developed a system to answer user questions based on the analysis of an input text paragraph. This system using Natural Language Processing, Machine Learning and Python. This was selected in top 3 projects out of more than 600 projects for Best Project Award in college.}}
+\vspace{5pt}
+
+\item{\textbf{Herbal Leaf Classification using Deep Learning} 
+
+\vspace{3pt}
+
+\small{Applied Transfer Learning to classify Herbal Leaf with an accuracy of 78\%. We used VGG16 Neural network for the project. Also tried Convolutional Neural Network to classify those images and got an accuracy of 97\%.}}
+
+\vspace{5pt}
+
+\item{\textbf{Generative Adversarial Networks} 
+
+\vspace{3pt}
+
+\small{Trained Wasserstein GAN Network on CelebA dataset. Also developed a new method to generate images using GANs.}}
+
+\vspace{5pt}
+\newpage
+\item{\textbf{Sentence Similarity using Siamese Network} 
+
+\vspace{3pt}
+
+\small{Trained a set of sentences for similarity rating. Furthermore, tested these trained data with newly acquired data from the user. We acquired an accuracy of more than 90\% with a test dataset of more than 20k sentence pairs.}}
+
+\vspace{5pt}
+
+\item{\textbf{Gujarati Handwritten Character Recognition System} 
+
+\vspace{3pt}
+
+\small{Trained handwritten sets of characters of a particular language with Support Vector Machine, Naive Bayes, Random Forest and Adaboost algorithm.}}
+\vspace{5pt}
+
+\item{\textbf{Face Recognition System} 
+
+\vspace{3pt}
+
+\small{Identified the face of a person based on the previously stored images using a combination of training pixels of the image, identifying features in the face and SIFT/SURF algorithms. This prototype system attained an accuracy of 50-60\%.}}
+
+\vspace{5pt}
+
+
+
+\end{itemize}
+
+\section{Teaching Experience}
+\vspace{5pt}
+\begin{itemize}
+\item{Taught more than \textbf{100 students} concepts like Machine Learning, Python and Neural Networks in College clubs.}
+\vspace{5pt}
+\item{Own and manage a YouTube Channel, ”Vampy Speaks” where I create tutorials to teach Artificial Intelligence. \\ Link- https://goo.gl/3Yv55g}
+\end{itemize}
+
+\section{Achievements and Awards}
+
+\vspace{5pt}
+
+\begin{itemize}
+\item {Secured \textbf{1st rank} for presenting paper on 'Combined Concept Model for Paragraph Summarization using Coverage Maximization' at a National level paper presentation contest in Government College of Engineering, Jalgaon, India }
+\vspace{5pt}
+\item {Selected in \textbf{Top 3} projects out of 600 projects for Best Project Award at SGGSIE\&T, Nanded, India.}
+\vspace{5pt}
+\item {Selected in \textbf{Top 50} Innovative Projects all over India at Natarajan Education Society's
+Innovative Project Development competition for a project to help Physically Disabled people.}
+\vspace{5pt}
+\item {Secured \textbf{1st rank} at Paper Presentation Contest for 'Sentence Tagging System' at SGGSIE&T, Nanded, India.}
+\vspace{5pt}
+\item {Secured \textbf{1st rank} at College level Coding Contest at SGGSIE&T, Nanded, India.}
+\vspace{5pt}
+\item {Secured \textbf{All India Rank 105} out of lakhs of participants in Tata Consultancy Services coding contest.}
+\vspace{5pt}
+\item {Incubated the \textbf{first non-profit startup} in the college which provided needed resources to students for completing their projects.}
+
+\end{itemize}
+
+
+\section{Technical skills}
+
+\vspace{5pt}
+
+\begin{itemize}
+
+\item \textbf{Programming Languages:} Proficient in: Python, Java, R, C, C++.
+
+\vspace{5pt}
+
+\item \textbf{Libraries:} Scikit, Matlab, Theano, Keras, Tensorflow, Torch
+
+\vspace{5pt}
+
+\item \textbf{Web Programming:} HTML, PHP, J2EE, JavaScript
+
+\vspace{5pt}
+
+\item \textbf{Operating System:} Windows, Linux, Fedora, Android
+
+\vspace{5pt}
+
+\item \textbf{IDE:} Eclipse, Vim, Intellij Idea
+
+\vspace{5pt}
+
+\item \textbf{Document Preparation System:} LaTeX, Microsoft Office, Open Office
+
+\end{itemize}
+
+\section{Extra-curricular activity}
+
+\vspace{5pt}
+
+\begin{itemize}
+
+\item\textbf{Volunteer Work:} Worked In Public Relations Committee of our college's National Technical Event where our team promoted the event in more than 30 colleges. Also \textbf{lead} the Website Designing committee to design a website for the event used by more than 5k students.
+
+\vspace{5pt}
+
+\item\textbf{Hobbies:} I have learned professional singing and have passed \textbf{3 exams} of singing with good grades. Also, I write and publish poetry.
+
+\vspace{5pt}
+
+\item\textbf{Community Service:} We surveyed neighbourhood rural areas and asked the ways in which they disposed of waste. We documented those details and also taught the locals the correct and safe way to dispose of the waste. We distributed pamphlets among them to create awareness.
+
+\end{itemize}
+
+
+\end{document}
+
+
+%% end of file `template.tex'.
